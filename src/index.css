@@ -1,0 +1,320 @@
+body {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  margin: auto;
+}
+
+.navbar {
+  box-shadow: 4px 4px 10px grey;
+  height: 8vh;
+}
+
+.navbrand {
+  width: 80%;
+}
+
+.navcart {
+  width: 20px; 
+  height: 20px;
+  margin-left: 900px;
+}
+
+.navuser {
+  width: 30px; 
+  height: 30px;
+  border-radius: 50%;
+}
+
+.navdrop {
+  text-decoration: none;
+  color: black;
+}
+
+.bodyhome {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -10px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 10px; /* gutter size */
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  /* background: grey; */
+  margin-bottom: 30px;
+}
+
+.card-product {
+  background: #F7E6DA;
+  border-radius: 5px;
+  width: 15rem;
+}
+
+.card-product:hover {
+  box-shadow: 0px 0px 10px #3d3d3d;
+}
+
+.text-header-product-item {
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #613D2B;
+}
+
+.text-product-item {
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #974A4A;
+  margin-top: 5px;
+}
+
+.img-rounded {
+  border-radius: 5px 5px 0 0;
+  width: fit-content;
+  height: fit-content;
+}
+
+.add-product {
+  display: flex;
+  padding: 20px;
+}
+
+.add-left {
+  flex: 70%;
+  padding: 20px;
+}
+
+.add-right {
+  flex: 30%;
+  padding: 20px;
+}
+
+.input-form {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  color: #000000;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  left: 195px;
+  top: 573px;
+  background: rgba(97, 61, 43, 0.25);
+  border: 2px solid #613D2B;
+  border-radius: 5px;
+}
+
+.input-transaction {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  color: #000000;
+  box-sizing: border-box;
+  width: 51%;
+  background: rgba(97, 61, 43, 0.25);
+  border: 2px solid #613D2B;
+  border-radius: 5px;
+}
+
+.label-form {
+  background: rgba(97, 61, 43, 0.25);
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  color: grey;
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+  left: 195px;
+  top: 573px;
+  border-radius: 5px;
+  border: 2px solid #613D2B;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+.add-button {
+  background-color: #613D2B;
+  color: #ffffff;
+  width: 260px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.text-header {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 66px;
+  color: #613D2B;
+}
+
+.text-title {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  color: #613D2B;
+}
+
+.text-content {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.dropdown-toggle::after{
+  display : none !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.img-contact {
+  width: 50px !important;
+  height: 50px !important;
+  object-fit: cover !important;
+}
+
+.img-chat {
+  width: 40px !important;
+  height: 40px !important;
+  object-fit: cover !important;
+}
+
+.text-contact {
+  font-size: 14px;
+}
+
+.text-contact-chat {
+  color: #000000;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+.contact img {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.contact ul {
+  list-style-type: none;
+}
+
+.contact:hover {
+  background-color: #df8484;
+  transition: 0.5s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact:active {
+  background-color: #dd8686;
+  transition: 0.3s;
+}
+
+.contact-active {
+  background-color: #dd6f6f;
+  border-radius: 5px;
+}
+
+.input-message {
+  width: 100%;
+  height: 90%;
+  background: rgba(238, 131, 131, 0.15);
+  border: 2px solid black;
+  color: #000000;
+}
+
+.chat-me {
+  background: #f37878;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 400px;
+}
+
+.chat-other {
+  background: #e66f6f;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 400px;
+}
+
+.cart-notif {
+  transform: matrix(1, 0, 0, 1, 6, -1.6);
+  background-color: rgb(239, 20, 74);
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(255, 255, 255);
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-right-color: rgb(255, 255, 255);
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-top-color: rgb(255, 255, 255);
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  height: 20px;
+  line-height: 16px;
+  min-height: 20px;
+  min-width: 20px;
+  padding-bottom: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 0px;
+  position: absolute;
+  text-align: center;
+  text-size-adjust: 100%;
+  transform: matrix(1, 0, 0, 1, 6, -1.6);
+  width: 20px;
+  right: 200px;
+}

@@ -1,0 +1,48 @@
+const dataTransaction = [
+    {
+        id: '1',
+        image: 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80', 
+        name: 'Ridwan',
+        address: 'Jakarta',
+        postcode: '2763566',
+        products: 'Kopi 1',
+        status: 'Waiting Approve',
+        qty: 12,
+        price: 17000,
+    },
+    {
+        id: '2',
+        image: 'https://images.unsplash.com/photo-1561112078-7d24e04c3407?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80', 
+        name: 'Harun',
+        address: 'Bandung',
+        postcode: '6363527',
+        products: 'Kopi 2',
+        status: 'Success',
+        qty: 12,
+        price: 17000,
+    },
+    {
+        id: '3',
+        image: 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80', 
+        name: 'Hengky',
+        address: 'Jakarta',
+        postcode: '2763566',
+        products: 'Kopi 3',
+        status: 'Cancel',
+        qty: 12,
+        price: 17000,
+    },
+    {
+        id: '4',
+        image: 'https://images.unsplash.com/photo-1561112078-7d24e04c3407?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80', 
+        name: 'Yunus',
+        address: 'Bandung',
+        postcode: '6363527',
+        products: 'Kopi 4',
+        status: 'On The Way',
+        qty: 12,
+        price: 17000,
+    },
+]
+
+export default dataTransaction
