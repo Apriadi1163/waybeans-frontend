@@ -76,7 +76,7 @@ export default function Profile() {
                         </Col>
                         <Col xs="3">
                           <img src={ImgNav} alt="" className='navbrand'/>
-                          <div className="mt-4 text-content">Success</div>
+                          <div className="mt-4 text-content">{item.status}</div>
                         </Col>
                       </Row>
                     </Container>
